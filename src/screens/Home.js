@@ -21,7 +21,7 @@ const Home = ( {navigation} ) => {
     return (
         <Container>
             <StyledText>Home</StyledText>
-            <Button title='go to the list screen'
+            <Button title='go to the screen'
                     onPress={ () => navigation.navigate('List')} />
         </Container>
     )
